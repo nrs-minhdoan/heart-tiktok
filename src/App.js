@@ -12,7 +12,7 @@ const SETTINGS = {
   },
 };
 
-const TITLE = "Tran Thi Tra My";
+const TITLE = "Tran Tra My";
 
 function App() {
   const initialize = useCallback(() => {
