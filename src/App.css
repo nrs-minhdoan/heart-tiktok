@@ -20,27 +20,11 @@
 }
 
 @keyframes textAnimate {
-  0% {
+  from {
     opacity: 0;
-    font-size: 0;
+    font-size: 0px;
   }
-  20% {
-    opacity: 0.2;
-    font-size: 6px;
-  }
-  40% {
-    opacity: 0.4;
-    font-size: 12px;
-  }
-  60% {
-    opacity: 0.6;
-    font-size: 18px;
-  }
-  80% {
-    opacity: 0.8;
-    font-size: 24px;
-  }
-  100% {
+  to {
     opacity: 1;
     font-size: 30px;
   }
@@ -55,5 +39,5 @@
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   color: #ff0066;
-  animation: textAnimate 3s ease-in-out infinite alternate;
+  animation: textAnimate 3s ease-in infinite alternate;
 }
